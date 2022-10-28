@@ -9,7 +9,7 @@
 1. Install/enable ssh server on one of your device in your network.
 2. Create a directory on it to share the files. (I used a USB Flash 8G)
 3. Extract `v2ray` binary files based on your cpu arch from here: https://github.com/hamzehnasajpour/v2ray-package/tree/main/openwrt.kuoruan.net/packages/releases          
-  a. my device has a `MediaTek MT7628AN`: Cpu Type= `MIPS24KEc`           
+  a. my device has a `MediaTek MT7628AN`: Cpu Type= `MIPS24KEc`: you can chaeck your cpu type in this file `/etc/openwrt_release` (for me `DISTRIB_ARCH='mipsel_24kc'`           
   b. go to the related folder. (for me: https://github.com/hamzehnasajpour/v2ray-package/tree/main/openwrt.kuoruan.net/packages/releases/mipsel_24kc)         
   c. extract the binary files from `ipk` and copy them to the directory you created in (2).        
 ```bash
