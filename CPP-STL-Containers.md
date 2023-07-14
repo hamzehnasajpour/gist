@@ -81,6 +81,14 @@ link: https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-
 
 
 ### list
+Lists are sequence containers that allow non-contiguous memory allocation. As compared to the vector, the list has slow traversal, but once a position has been found, insertion and deletion are quick (constant time). Normally, when we say a List, we talk about a doubly linked list. For implementing a singly linked list, we use a forward_list.
+
+```cpp
+#include <list>
+list<int> gqlist{12,45,8,6};
+```
+
+link: https://www.geeksforgeeks.org/list-cpp-stl/
 
 ## Container adaptors
 ### stack
