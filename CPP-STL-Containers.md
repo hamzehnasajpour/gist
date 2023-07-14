@@ -2,7 +2,7 @@
 A container is a holder object to stores a collection of other objects. 
 
 ## Sequence containers:
-### array
+### * array
 ```cpp
 #include <array>
 
@@ -20,7 +20,7 @@ array<int, 5> ar = {5,4,3,2,1};
 
 link: https://www.geeksforgeeks.org/stdarray-in-cpp/
 
-### vector
+### * vector
 ```cpp
 #include <vector>
 vector<int> v;
@@ -49,7 +49,7 @@ vector<int> v;
 link: https://www.geeksforgeeks.org/vector-in-cpp-stl/
 
 
-### deque
+### * deque
 Double Ended Queue: Exact like `vector`, but with efficient insertion and deletion of elements also at the beginning of the sequence, and not only at its end. So all funcations are shared here with `vector`.
 
 ```cpp
@@ -58,7 +58,7 @@ deque<int> gquiz;
 ```
 link: https://www.geeksforgeeks.org/deque-cpp-stl/
 
-### forward_list
+### * forward_list
 It differs from the list by the fact that the forward list keeps track of the location of only the next element while the list keeps track of both the next and previous elements. Forward List is preferred over the list when only forward traversal is required.
 
 ```cpp
@@ -80,7 +80,7 @@ forward_list<int> flist1;
 link: https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/
 
 
-### list
+### * list
 Lists are sequence containers that allow non-contiguous memory allocation. As compared to the vector, the list has slow traversal, but once a position has been found, insertion and deletion are quick (constant time). Normally, when we say a List, we talk about a doubly linked list. For implementing a singly linked list, we use a forward_list.
 
 ```cpp
@@ -91,7 +91,7 @@ list<int> gqlist{12,45,8,6};
 link: https://www.geeksforgeeks.org/list-cpp-stl/
 
 ## Container adaptors
-### stack
+### * stack
 Stacks are a type of container adaptor, specifically designed to operate in a LIFO context (last-in first-out), where elements are inserted and extracted only from one end of the container.
 
 ```cpp
@@ -107,7 +107,7 @@ stack<int> stack;
 
 link: https://www.geeksforgeeks.org/stack-in-cpp-stl/
 
-### queue
+### * queue
 Queues are a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
 
 ```cpp
@@ -127,7 +127,7 @@ queue<int> q;
 
 link: https://www.geeksforgeeks.org/queue-cpp-stl/
 
-### pritority_queue
+### * pritority_queue
 A C++ priority queue is a type of container adapter, specifically designed such that the first element of the queue is either the greatest or the smallest of all elements in the queue, and elements are in non-increasing or non-decreasing order (hence we can see that each element of the queue has a priority {fixed order}).
 
 ```cpp
@@ -146,16 +146,16 @@ priority_queue<int> q;
 link: https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
 
 ## Associative containers:
-### set
-### multiset
-### map
-### multimap
+### * set
+### * multiset
+### * map
+### * multimap
 
 ## Unordered associative containers:
-### unordered_set
-### unordered_multiset
-### unordered_map
-### unordered_multimap
+### * unordered_set
+### * unordered_multiset
+### * unordered_map
+### * unordered_multimap
 
 
 ---
