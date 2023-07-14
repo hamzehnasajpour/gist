@@ -1,8 +1,14 @@
 #### C++ advantages:
 * OOP
   - Polymorphism
+    overloading and overriding
   - Inheritence 
+    - defining a base class --> deriving a class from it
+    - we have all that behaviour methods and variables
+    - we can override
   - Encapsulation
+    - hiding all vars and just implement some method to acess and modify
+    - data protection
   - Abstraction
   - Object & Class
 * Performance
@@ -175,3 +181,40 @@ organsinng and categorizing the codes
 pointer to any data type
 
 ---
+
+### smart pointers
+* memory management/ leakage
+* more efficient + additional feature
+* destroy out of the scope
+    - auto_ptr
+    - unique_ptr
+    - shared_ptr
+    - weak_ptr
+
+---
+
+### `lvalue`
+something refers to a memory location
+
+---
+
+* `decltype(n) a = 20;`
+* `auto` vs `decltype`:
+`auto` works on type, `decltype` works on expressions
+* `typedef` creates an alias that can be used anywhere in place of a type
+* `const` is a variable, readonly, used by pointer and by reference
+* `explicit`: making the `ctor` or the conversions expliciti to avoid typecast by compiler
+
+---
+
+### design patterns
+reusablity, proven solution, refactor, codesize
+
+* Creational
+* Structural
+* Behavioural
+
+- `singleton`
+- `factory`: define an interface to decide which object to instansiate.
+- `observer`: linking an object(`subject`) to dependents(`observers`) any of the ovserver change, subject in notified
+- `adapter`: is a wrapper that converts one kind of interface to another
