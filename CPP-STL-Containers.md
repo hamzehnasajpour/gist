@@ -92,8 +92,58 @@ link: https://www.geeksforgeeks.org/list-cpp-stl/
 
 ## Container adaptors
 ### stack
+Stacks are a type of container adaptor, specifically designed to operate in a LIFO context (last-in first-out), where elements are inserted and extracted only from one end of the container.
+
+```cpp
+#include <stack>
+stack<int> stack;
+```
+* `empty()`: Returns whether the stack is empty – Time Complexity : O(1) 
+* `size()` : Returns the size of the stack – Time Complexity : O(1) 
+* `top()` : Returns a reference to the top most element of the stack – Time Complexity : O(1) 
+* `push(g)` : Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
+* `pop()` : Deletes the most recent entered element of the stack – Time Complexity : O(1) 
+
+
+link: https://www.geeksforgeeks.org/stack-in-cpp-stl/
+
 ### queue
+Queues are a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
+
+```cpp
+#include <queue>
+queue<int> q;
+```
+
+* `empty` :	Test whether container is empty (public member function)
+* `size` :	Return size (public member function)
+* `front` :	Access next element (public member function)
+* `back` :	Access last element (public member function)
+* `push` :	Insert element (public member function)
+* `emplace` :	Construct and insert element (public member function)
+* `pop` :	Remove next element (public member function)
+* `swap` : contents (public member function)
+
+
+link: https://www.geeksforgeeks.org/queue-cpp-stl/
+
 ### pritority_queue
+A C++ priority queue is a type of container adapter, specifically designed such that the first element of the queue is either the greatest or the smallest of all elements in the queue, and elements are in non-increasing or non-decreasing order (hence we can see that each element of the queue has a priority {fixed order}).
+
+```cpp
+#include <queue>
+priority_queue<int> q;
+```
+
+* `empty` :	Test whether container is empty (public member function)
+* `size` : Return size (public member function)
+* `top` : Access top element (public member function)
+* `push` : Insert element (public member function)
+* `emplace` : Construct and insert element (public member function)
+* `pop` : Remove top element (public member function)
+* `swap` : Swap contents (public member function)
+
+link: https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
 
 ## Associative containers:
 ### set
@@ -106,3 +156,8 @@ link: https://www.geeksforgeeks.org/list-cpp-stl/
 ### unordered_multiset
 ### unordered_map
 ### unordered_multimap
+
+
+---
+
+https://cplusplus.com/reference/stl/
