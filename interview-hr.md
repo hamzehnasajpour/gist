@@ -183,3 +183,41 @@ manager defined a project that I didn#t have any experience -> none of us -> I d
 * communication
 * focus and avoid multitasking
 * regularly review 
+
+---
+---
+
+### questions to ask from interviewer
+* what advices would you give to candidate to be successful in this role?
+* what#s the culture withing this company?
+* what challenges are your company right now? how can I help ... 
+* what would you need me to concetrate within the one month of starting?
+* what#s the next step in your hiring process?
+
+---
+---
+
+### NOTES
+* be positive
+* self sufficent
+* be yourself
+* !NERVOUS
+
+BE:
+1. teamwroker: I always collabrate with my coworkers to ensure we quickly meet the teams objectives.
+2. hardworking: I am always diligent and conscientous and I will never miss a deadline
+3. professional: during carryng out my duties I will always be competent and proficient.
+4. problem solver: I am always solution oriented whilst dealing with challenges and problems.
+5. high standard: I am detailed-oriented person who can be relied upon to all company policies and procedure.
+
+---
+---
+
+### Salary negotiation
+
+* generally there are two important aspect for me to making decision for job career:
+    - job satisfication: enjoy of my work, being a good match with position, plac to work improve and extend my skills.
+    - supporting my family:
+* would you mind please tell me if there is any extra benefits packages?
+* I fully understant the company position and appretiate everything you have done so far. I just want highligh that my skills and experience align well with the requirement of the role. I am confident I can bring significant value to the team.
+* is there any room for negotiation within the range I provided. 
