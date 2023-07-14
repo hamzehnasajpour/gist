@@ -6,7 +6,7 @@ A container is a holder object to stores a collection of other objects.
 ```cpp
 #include <array>
 
-array<int, 5> ar = {5,4,3,2,1};
+std::array<int, 5> ar = {5,4,3,2,1};
 ```
 * `[]` : `array[2]`
 * `front()` and `back()` : first and last element
@@ -23,7 +23,7 @@ link: https://www.geeksforgeeks.org/stdarray-in-cpp/
 ### * vector
 ```cpp
 #include <vector>
-vector<int> v;
+std::vector<int> v;
 ```
 
 * `begin()`, `end()`, `cbegin()` and `cend()` : itterators
@@ -54,7 +54,7 @@ Double Ended Queue: Exact like `vector`, but with efficient insertion and deleti
 
 ```cpp
 #include <deque>
-deque<int> gquiz;
+std::deque<int> gquiz;
 ```
 link: https://www.geeksforgeeks.org/deque-cpp-stl/
 
@@ -63,7 +63,7 @@ It differs from the list by the fact that the forward list keeps track of the lo
 
 ```cpp
 #include <forward_list>
-forward_list<int> flist1;
+std::forward_list<int> flist1;
 ```
 
 * `assign()`: assign values to the forward list.
@@ -85,7 +85,7 @@ Lists are sequence containers that allow non-contiguous memory allocation. As co
 
 ```cpp
 #include <list>
-list<int> gqlist{12,45,8,6};
+std::list<int> gqlist{12,45,8,6};
 ```
 
 link: https://www.geeksforgeeks.org/list-cpp-stl/
@@ -96,7 +96,7 @@ Stacks are a type of container adaptor, specifically designed to operate in a LI
 
 ```cpp
 #include <stack>
-stack<int> stack;
+std::stack<int> stack;
 ```
 * `empty()`: Returns whether the stack is empty – Time Complexity : O(1) 
 * `size()` : Returns the size of the stack – Time Complexity : O(1) 
@@ -112,7 +112,7 @@ Queues are a type of container adaptors that operate in a first in first out (FI
 
 ```cpp
 #include <queue>
-queue<int> q;
+std::queue<int> q;
 ```
 
 * `empty` :	Test whether container is empty (public member function)
@@ -132,7 +132,7 @@ A C++ priority queue is a type of container adapter, specifically designed such 
 
 ```cpp
 #include <queue>
-priority_queue<int> q;
+std::priority_queue<int> q;
 ```
 
 * `empty` :	Test whether container is empty (public member function)
@@ -147,16 +147,94 @@ link: https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
 
 ## Associative containers:
 ### * set
+Sets are a type of associative container in which each element has to be unique because the value of the element identifies it. The values are stored in a specific sorted order i.e. either ascending or descending.
+
+```cpp
+#include <set>
+std::set<char> a;
+```
+* `begin()`, `end()`, `cbegin()` and `cend()` : itterators
+* `rbegin()`, `rend()`, `crbegin()` and `crend()` : reverse itterators
+* `empty` :	Test whether container is empty (public member function)
+* `size` : Return container size (public member function)
+* `max_size`: Return maximum size (public member function)
+* `insert`: Insert element (public member function)
+* `erase` : Erase elements (public member function)
+* `swap` : Swap content (public member function)
+* `clear` : Clear content (public member function)
+* `emplace` : Construct and insert element (public member function)
+* `emplace_hint` : Construct and insert element with hint (public member function)
+
+link: https://www.geeksforgeeks.org/set-in-cpp-stl/
+
 ### * multiset
+Multisets are a type of associative containers similar to the set, with the exception that multiple elements can have the same values.
+
+```cpp
+#include <set>
+std::multiset<char> a;
+```
+
+* `begin()` – Returns an iterator to the first element in the multiset –>  O(1)
+* `end()` – Returns an iterator to the theoretical element that follows the last element in the multiset –> O(1)
+* `size()` – Returns the number of elements in the multiset –> O(1)
+* `max_size()` – Returns the maximum number of elements that the multiset can hold –> O(1)
+* `empty()` – Returns whether the multiset is empty –> O(1)
+* `insert (x)` – Inserts the element x in the multiset –> O(log n)
+* `clear ()` – Removes all the elements from the multiset –> O(n)
+* `erase(x)` – Removes all the occurrences of x –> O(log n)
+
+link: https://www.geeksforgeeks.org/multiset-in-cpp-stl/
+
 ### * map
+Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have the same key values.
+
+```cpp
+#include <map>
+std::map<std::string, int> map;
+```
+* `begin()` – Returns an iterator to the first element in the map.
+* `end()` – Returns an iterator to the theoretical element that follows the last element in the map.
+* `size()` – Returns the number of elements in the map.
+* `max_size()` – Returns the maximum number of elements that the map can hold.
+* `empty()` – Returns whether the map is empty.
+* `pair_insert(keyvalue, mapvalue)` – Adds a new element to the map.
+* `erase(iterator position)` – Removes the element at the position pointed by the iterator.
+* `erase(const g)` – Removes the key-value ‘g’ from the map.
+* `clear()` – Removes all the elements from the map.
+
+link: https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+
 ### * multimap
+Multimap is similar to a map with the addition that multiple elements can have the same keys. Also, it is NOT required that the key-value and mapped value pair have to be unique in this case. One important thing to note about multimap is that multimap keeps all the keys in sorted order always. These properties of multimap make it very much useful in competitive programming.
+
+```cpp
+#include <map>
+std::multimap<int, int> gquiz1; // empty multimap container
+```
+
+link: https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/
 
 ## Unordered associative containers:
 ### * unordered_set
-### * unordered_multiset
-### * unordered_map
-### * unordered_multimap
+Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value.
 
+link: https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
+
+### * unordered_multiset
+Unordered multisets are containers that store elements in no particular order, allowing fast retrieval of individual elements based on their value, much like unordered_set containers, but allowing different elements to have equivalent values.
+
+link: https://www.geeksforgeeks.org/cpp-unordered_multiset/
+
+### * unordered_map
+Unordered maps are associative containers that store elements formed by the combination of a key value and a mapped value, and which allows for fast retrieval of individual elements based on their keys.
+
+link: https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
+
+### * unordered_multimap
+Unordered multimaps are associative containers that store elements formed by the combination of a key value and a mapped value, much like unordered_map containers, but allowing different elements to have equivalent keys.
+
+link: https://www.geeksforgeeks.org/unordered_multimap-and-its-application/
 
 ---
 
