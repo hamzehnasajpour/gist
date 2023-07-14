@@ -1,7 +1,7 @@
 ## Standard Containers
 A container is a holder object to stores a collection of other objects. 
 
-### Container class templates
+### Sequence containers:
 #### array
 #### vector
 #### deque
