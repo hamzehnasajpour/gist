@@ -25,6 +25,16 @@ I am not good at public speaking. (I know, aware, work on it, deal with it, try,
 
 ---
 
+### Expepectation from manager and the company?
+
+1. Clear communication, transparent, clear guidance and expectation
+2. Professional growth: I hope to work for a company that supports and encourages this. I look forward to opportunities for training, mentorship, and skill development that will allow me to excel in my role and contribute to the company's growth.
+3. Feedback: positive -> makes me motivate/Negative -> improve myself
+4. Work Life Balance: healty work life balance is cruical
+
+
+---
+
 ### Where do you see yourself in five years?
 
 SAY SOMETHING and NOT TO SAY WORKING SOMEWHERE ELSE
