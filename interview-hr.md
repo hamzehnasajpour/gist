@@ -199,10 +199,14 @@ manager defined a project that I didn#t have any experience -> none of us -> I d
 
 ### questions to ask from interviewer
 * what advices would you give to candidate to be successful in this role?
-* what#s the culture withing this company?
-* what challenges are your company right now? how can I help ... 
+* What are the main challenges or opportunities that the team or department is currently facing? how can I help ...
+* which standards, technologies, tools you are using in your daily tasks?
+* what is your expectation as a team member in the first month? What does success look like in this role within the first 30, 60, or 90 days?
+* What is the typical career path for someone in this role?
+* Can you tell me more about the team's collaboration and communication processes?
 * what would you need me to concetrate within the one month of starting?
-* what#s the next step in your hiring process?
+* what's the culture withing this company?
+* what`s the next step in your hiring process?
 
 ---
 ---
